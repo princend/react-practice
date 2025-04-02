@@ -11,7 +11,7 @@
     width: 100%;
     max-width: 20em;
     overflow: hidden;
-    background-color: #e6dcdc;
+    // background-color: #e6dcdc;
   
     &::before {
       content: '';
@@ -34,7 +34,8 @@
       height: 50%;
       background-size: 200%;
       background-repeat: no-repeat;
-      background-image: url('https://images.weserv.nl/?url=i.imgur.com/M1raXX3.png&il');
+      // background-image: url('https://images.weserv.nl/?url=i.imgur.com/M1raXX3.png&il');
+      background-image: url('./assets/images/otter.png');
     }
   }
   
@@ -91,7 +92,7 @@
     justify-content: flex-start;
     justify-content: center;
     align-items: center;
-    background-color: #e6dcdc;
+    // background-color: #e6dcdc;
   }
   
   // reset
