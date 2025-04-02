@@ -1,16 +1,18 @@
-import React, { JSX  } from 'react';
-import logo from './logo.svg';
+import  { JSX } from 'react';
+
 import './App.css';
+import { CatLoading } from './cat-loading';
+
 
 function App(): JSX.Element {
   return (
-    <div>
+    <>
       <header>
       </header>
-      <body>
-        123
-      </body>
-    </div>
+      <div>
+        <CatLoading></CatLoading>
+      </div>
+    </>
   );
 }
 
