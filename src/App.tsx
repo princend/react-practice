@@ -1,7 +1,7 @@
 import  { JSX } from 'react';
 
 import './App.css';
-import { CatLoading } from './cat-loading';
+import { Accordion } from "./components/accordion";
 
 
 function App(): JSX.Element {
@@ -10,7 +10,8 @@ function App(): JSX.Element {
       <header>
       </header>
       <div>
-        <CatLoading></CatLoading>
+
+        <Accordion></Accordion>
       </div>
     </>
   );
